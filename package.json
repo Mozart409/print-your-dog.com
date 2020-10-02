@@ -1,9 +1,14 @@
 {
   "name": "snowpack-print-your-dog",
-  "version": "0.0.1",
+  "version": "0.2.5",
   "license": "MIT",
   "main": "index.js",
-  "keywords": ["csa-template", "snowpack", "react", "tailwindcss"],
+  "keywords": [
+    "csa-template",
+    "snowpack",
+    "react",
+    "tailwindcss"
+  ],
   "author": "Amadeus Mader",
   "scripts": {
     "prepare": "snowpack",
