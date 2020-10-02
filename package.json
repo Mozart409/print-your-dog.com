@@ -1,0 +1,35 @@
+{
+  "name": "snowpack-mozart409",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "index.js",
+  "keywords": [
+    "csa-template",
+    "snowpack",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "Amadeus Mader",
+  "scripts": {
+    "prepare": "snowpack",
+    "start": "snowpack dev --secure",
+    "build": "snowpack build",
+    "format": "prettier --write .",
+    "cert": "npx devcert-cli generate localhost"
+  },
+  "dependencies": {
+    "@snowpack/plugin-optimize": "^0.2.1",
+    "@tailwindcss/typography": "^0.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "tailwindcss": "1.8.10"
+  },
+  "devDependencies": {
+    "@snowpack/app-scripts-react": "^1.1.4",
+    "postcss": "^8.0.9",
+    "postcss-cli": "^8.0.0",
+    "prettier": "^2.0.0",
+    "snowpack": "^2.2.0"
+  },
+  "browserslist": ">0.75%, not ie 11, not UCAndroid >0, not OperaMini all"
+}

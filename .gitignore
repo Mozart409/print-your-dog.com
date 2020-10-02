@@ -1,0 +1,10 @@
+.build
+build
+web_modules
+node_modules
+localhost.key
+localhost.cert
+snowpack.crt
+snowpack.key
+snowpack.cert
+build.zip
